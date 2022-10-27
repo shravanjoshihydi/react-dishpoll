@@ -1,4 +1,16 @@
 React-dishpoll
+project done using reactjs.
+
+How to run the code:
+1.Open the react-dishpoll folder
+
+2.Download dependencies by running npm install. Cross check if the dependencies have been added in nodemodules folder.
+3.Next in terminal run
+cd ~/react-dishpoll
+npm start
+
+4.open http://localhost:3000 on the browser to view the website
+
 
 Problem Statement
 Make a small react app for ranking dishes. Multiple users should be able to login into the app and vote for their favourite dishes and see the results of the poll.
