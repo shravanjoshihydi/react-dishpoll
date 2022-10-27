@@ -1,0 +1,45 @@
+.dishCard{
+    /* border: 3px solid black; */
+    background-color: rgb(105, 105, 105);
+    width: 100%;
+    height:100%;
+    transition: transform 0.15s ease;
+    padding-top: 10px;
+    
+}
+.dishData{
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+    /* position: absolute;
+    z-index: 1; */
+}
+/* .dishImage{
+    object-fit: cover;
+    width: 100%;
+    /* height: 20vh; */
+    /* z-index: -1000; */
+    /* opacity: 0.5; */
+/* } 
+.dishImageDiv{
+    width: 100%;
+    height: 20vh;
+} */ */
+.dishRating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dishRank{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.dishRank:hover{
+    filter: brightness(1);
+}
+.dishCard:hover{
+    cursor: auto;
+    transform: scale(1,1);
+}

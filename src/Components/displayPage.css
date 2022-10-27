@@ -1,0 +1,45 @@
+.displaypage{
+    height: 100%;
+}
+.tabs{ 
+    padding: 5px;
+    margin: 2px; 
+    font-weight: 700;
+}
+.vote{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    border: 2px solid black;
+
+}
+.rankings{
+    position: absolute;
+    left: 111px;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    border: 2px solid black;
+}
+
+.loginToContinue{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: top;
+    align-items: center;
+    color: rgb(250,250,250);
+    /* background-color: rgb(); */
+}
+
+.loginButton{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: red;
+}
