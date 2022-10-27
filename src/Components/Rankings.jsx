@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./ranking.css"
 
 
-const allUsers = require("./users.json");
+const allUsers = require("../users.json");
 
 const Rankings = () =>{
 
