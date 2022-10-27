@@ -1,4 +1,5 @@
-react-dishpoll
+React-dishpoll
+
 Problem Statement
 Make a small react app for ranking dishes. Multiple users should be able to login into the app and vote for their favourite dishes and see the results of the poll.
 
