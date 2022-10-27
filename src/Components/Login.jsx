@@ -8,7 +8,7 @@ import "./login.css";
 
 const Login =()=>{
 
-  const allUsers = require("../users.json");
+  const allUsers = require("./users.json");
 
   const history = useHistory();
 
